@@ -358,36 +358,6 @@ class _GridBState extends State<GridB> {
     //cabe aclarar que no tenemos licensias de las imagenes mostradas
     //tambien se deberia añadir la imagen de perfil del vendedor
     {
-      "title": "Donas Maria antonia",
-      "price": "\$2000",
-      "images":
-          "https://dam.cocinafacil.com.mx/wp-content/uploads/2021/06/donas-decoradas-1170x655.jpg",
-    },
-    {
-      "title": "Donuts chepe",
-      "price": "\$3500",
-      "images":
-          "https://t1.rg.ltmcdn.com/es/posts/8/3/0/masa_para_donas_51038_600.webp",
-    },
-    {
-      "title": "Caja Standart donuts",
-      "price": "\$15000",
-      "images":
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO30evAXDEu3u51v1gluZjYedU1-bZU9eNhw&usqp=CAU",
-    },
-    {
-      "title": "Caja Dunkin Donuts",
-      "price": "\$22000",
-      "images":
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8eWRwYuRfsTOLLi8phV3N3jaE3uGFO9JOJSV_bocp0JkHqJpJa65yafIT69juj1mhX0g&usqp=CAU",
-    },
-    {
-      "title": "Roscones Milos",
-      "price": "\$2300",
-      "images":
-          "https://static.compreloadomicilio.com/hummpan/products/057/60859359af0bd662895123.webp",
-    },
-    {
       "title": "Beta jeans for beta testers",
       "price": "\$27",
       "images":

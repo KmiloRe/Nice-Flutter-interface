@@ -111,7 +111,7 @@ class _HomeState extends State<Home> {
                   ),
                   selectedTileColor: Colors.indigoAccent.shade100,
                   title: Text(
-                    "Welcome Back",
+                    "Camilo_Restrepo32",
                     style: Theme.of(context).textTheme.subtitle1!.merge(
                           const TextStyle(
                             fontWeight: FontWeight.w700,
@@ -120,7 +120,7 @@ class _HomeState extends State<Home> {
                         ),
                   ),
                   subtitle: Text(
-                    "A Greet welcome to you all.",
+                    "GetHigh getfine.",
                     style: Theme.of(context).textTheme.subtitle2,
                   ),
                   //Menu pop up al tocar el icono de la persona
@@ -131,7 +131,7 @@ class _HomeState extends State<Home> {
                           leading: Icon(
                             CupertinoIcons.person,
                           ),
-                          title: Text("My Profile"),
+                          title: Text("Mi Perfil"),
                         ),
                       ),
                       PopupMenuItem(
@@ -139,7 +139,7 @@ class _HomeState extends State<Home> {
                           leading: Icon(
                             CupertinoIcons.bag,
                           ),
-                          title: Text("My Bag"),
+                          title: Text("Carrito de compras"),
                         ),
                       ),
                       PopupMenuDivider(),
@@ -147,7 +147,7 @@ class _HomeState extends State<Home> {
                         child: Text("Settings"),
                       ),
                       PopupMenuItem(
-                        child: Text("About Us"),
+                        child: Text("Sobre GetHigh"),
                       ),
                       PopupMenuDivider(),
                       PopupMenuItem(
@@ -161,7 +161,7 @@ class _HomeState extends State<Home> {
                     ],
                     icon: CircleAvatar(
                       backgroundImage: const NetworkImage(
-                        'https://images.unsplash.com/photo-1644982647869-e1337f992828?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80',
+                        'https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80',
                       ),
                       child: Container(),
                     ),
@@ -186,8 +186,8 @@ class _HomeState extends State<Home> {
                         onTap: () {
                           ScaffoldMessenger.of(context).showSnackBar(
                             SnackBar(
-                              content:
-                                  Text("Hello you tapped at ${index + 1} "),
+                              content: Text(
+                                  "Tap en el item ${index + 1} de la tienda"),
                             ),
                           );
                         },
@@ -248,7 +248,7 @@ class _HomeState extends State<Home> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: const Icon(
-          Icons.add,
+          Icons.location_on_outlined,
         ),
       ),
       bottomNavigationBar: AnimatedContainer(
@@ -358,13 +358,25 @@ class _GridBState extends State<GridB> {
     //cabe aclarar que no tenemos licensias de las imagenes mostradas
     //tambien se deberia añadir la imagen de perfil del vendedor
     {
-      "title": "Beta jeans for beta testers",
+      "title": "Vaporizador X",
       "price": "\$27",
       "images":
           "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
     },
     {
-      "title": "V&V  model white t shirts.",
+      "title": "Pub de Vapo X",
+      "price": "\$55",
+      "images":
+          "https://images.unsplash.com/photo-1554568218-0f1715e72254?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    },
+    {
+      "title": "Camisa con logo",
+      "price": "\$55",
+      "images":
+          "https://images.unsplash.com/photo-1554568218-0f1715e72254?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    },
+    {
+      "title": "Produto generico",
       "price": "\$55",
       "images":
           "https://images.unsplash.com/photo-1554568218-0f1715e72254?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
